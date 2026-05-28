@@ -1,5 +1,51 @@
 # CortexDoc
 
+<p align="center">
+
+<img src="https://img.shields.io/badge/AI-Cognitive%20System-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/OCR-PaddleOCR-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/LLM-Ollama-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/Framework-Gradio-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+
+</p>
+
+---
+
+<h1 align="center">
+🧠 CortexDoc
+</h1>
+
+<h3 align="center">
+Local Multi-Agent Cognitive Document Intelligence System
+</h3>
+
+---
+
+<p align="center">
+
+<a href="#features">
+<img src="https://img.shields.io/badge/View-Features-black?style=for-the-badge">
+</a>
+
+<a href="#installation">
+<img src="https://img.shields.io/badge/Install-CortexDoc-blue?style=for-the-badge">
+</a>
+
+<a href="#system-architecture">
+<img src="https://img.shields.io/badge/System-Architecture-orange?style=for-the-badge">
+</a>
+
+<a href="#future-roadmap">
+<img src="https://img.shields.io/badge/Future-Roadmap-success?style=for-the-badge">
+</a>
+
+</p>
+
+---
+
+# CortexDoc
+
 ### Local Multi-Agent Cognitive Document Intelligence System
 
 CortexDoc is an advanced AI-powered document intelligence framework designed for deep semantic understanding, reasoning, and analysis of complex documents.
@@ -152,7 +198,7 @@ Strategic Intelligence Output
 ## Clone Repository
 
 ```bash
-git clone https://github.com/Litap_AI/cortexdoc.git
+git clone https://github.com/YOUR_USERNAME/CortexDoc.git
 cd CortexDoc
 ```
 
