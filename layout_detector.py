@@ -1,20 +1,34 @@
-import layoutparser as lp
+from ultralytics import YOLO
+from huggingface_hub import hf_hub_download
 import cv2
 
-model = lp.Detectron2LayoutModel(
-    config_path='lp://PubLayNet/faster_rcnn_R_50_FPN_3x/config',
-    label_map={
-        0: "Text",
-        1: "Title",
-        2: "List",
-        3: "Table",
-        4: "Figure"
-    }
+model_path = hf_hub_download(
+    repo_id="juliozhao/DocLayout-YOLO-DocStructBench",
+    filename="doclayout_yolo_docstructbench_imgsz1024.pt"
 )
 
+model = YOLO(model_path)
+
 def detect_layout(image_path):
+
     image = cv2.imread(image_path)
 
-    layout = model.detect(image)
+    results = model(image_path)
 
-    return layout
+    boxes = []
+
+    for box in results[0].boxes:
+
+        coords = box.xyxy.tolist()[0]
+
+        confidence = float(box.conf.tolist()[0])
+
+        cls = int(box.cls.tolist()[0])
+
+        boxes.append({
+            "coords": coords,
+            "confidence": confidence,
+            "class": cls
+        })
+
+    return image, boxes, results
