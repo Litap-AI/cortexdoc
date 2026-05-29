@@ -82,7 +82,15 @@ interface = gr.Interface(
     title="CortexDoc",
 
     description="""
-Cognitive Document Intelligence System
+<img src="file/assets/logo/cortexdoc_logo.png" width="120">
+
+<br>
+
+<b>Local Multi-Agent Cognitive Document Intelligence System</b>
+
+<br><br>
+
+Extract. Understand. Reason. Remember.
 """
 )
 
