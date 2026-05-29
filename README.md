@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="assets/logo/cortexdoc_logo.png" width="220">
+</p>
+
+<h1 align="center">CortexDoc</h1>
+
+<p align="center">
+Local Multi-Agent Cognitive Document Intelligence System
+</p>
+
 # CortexDoc
 <p align="center">
   <img src="assets/banner/cortexdoc_banner.png" width="100%">
