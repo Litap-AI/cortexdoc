@@ -1,4 +1,7 @@
 # CortexDoc
+<p align="center">
+  <img src="assets/banner/cortexdoc_banner.png" width="100%">
+</p>
 
 <p align="center">
 
@@ -64,6 +67,10 @@ The system combines:
 All running locally.
 
 ---
+## User Interface
+
+![UI](assets/screenshots/cortexdoc_ui.png)
+
 
 # Features
 
@@ -129,44 +136,10 @@ Designed especially for:
 
 ---
 
-# System Architecture
+## Architecture
 
-```text
-PDF / Image
-      ↓
-OCR Engine (PaddleOCR)
-      ↓
-Structure Engine
-      ↓
-Semantic Chunking
-      ↓
-Vector Memory (ChromaDB)
-      ↓
-Memory Retrieval
-      ↓
-Reasoning Engine (LLM)
-      ↓
-Multi-Agent Cognitive Society
-      ↓
-Strategic Intelligence Output
-```
+![Architecture](assets/architecture/cortexdoc_pipeline.png)
 
----
-
-# Core Modules
-
-| Module                     | Purpose                                   |
-| -------------------------- | ----------------------------------------- |
-| `ocr_engine.py`            | OCR extraction pipeline                   |
-| `structure_engine.py`      | Text block grouping & paragraph formation |
-| `memory_engine.py`         | Vector storage and retrieval              |
-| `reasoning_engine.py`      | LLM-based contextual reasoning            |
-| `agents.py`                | Autonomous cognitive agents               |
-| `society_engine.py`        | Multi-agent orchestration                 |
-| `contradiction_engine.py`  | Contradiction analysis                    |
-| `knowledge_graph.py`       | Entity-relation mapping                   |
-| `cross_document_engine.py` | Multi-document reasoning                  |
-| `reflection_engine.py`     | Meta-reasoning & self-analysis            |
 
 ---
 
@@ -184,13 +157,10 @@ Strategic Intelligence Output
 * Python
 * Gradio
 
-## Cognitive Systems
 
-* Multi-Agent Reasoning
-* Retrieval-Augmented Generation (RAG)
-* Semantic Memory
-* Knowledge Graphs
+## Cognitive Society
 
+![Agents](assets/architecture/cognitive_society.png)
 ---
 
 # Installation
@@ -262,6 +232,11 @@ Compare strategic priorities across documents.
 
 Extract military or geopolitical themes.
 ```
+
+---
+## Mathematical Framework
+
+![Math](assets/mathematics/cortexdoc_math_framework.png)
 
 ---
 
