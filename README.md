@@ -285,7 +285,7 @@ The project explores how AI systems can evolve from passive text processors into
 # License
 
 MIT License
-
+Copyright © 2026 rohitmanikraopatil.com
 ---
 
 # Author
