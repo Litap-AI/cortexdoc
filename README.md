@@ -290,4 +290,5 @@ Copyright © 2026 rohitmanikraopatil.com
 
 # Author
 
-ROHIT PATIL
+Rohit Manikrao Patil
+---
